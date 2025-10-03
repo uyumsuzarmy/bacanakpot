@@ -1,0 +1,21 @@
+{
+  "name": "discord-dm-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that sends DM messages to all server members using /dm command",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "panel": "node panel.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "dm", "messaging"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
